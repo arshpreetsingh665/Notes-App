@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // Update Kotlin plugin version
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.0.2' apply false // Update Android plugin version
+    id 'com.android.library' version '8.0.2' apply false // Update Android plugin version
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false // Update Kotlin plugin version
+}
